@@ -1,0 +1,84 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 20px;
+    display:flex;
+    align-items:center;
+    justify-content: left;
+    background-color: white;
+    color:beige;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+    color:rgb(70, 67, 67);
+    list-style-type: none;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.header{
+    display: flex;
+}
+.Logo-up{
+width: 800px;   
+}
+.Logo-up img{
+    width: 100%;
+}
+
+.banner{
+    flex-basis: 300px;
+}
+
+span{
+    color: rgb(228, 207, 89);
+}
+section{
+   
+    margin: 0 auto;
+}
+.body1{
+    display: flex;
+}
+.Zagolovok{
+    flex-basis: 300px;
+}
+.logo2{
+    flex-basis: 800px;
+   
+}
+.logo2 img{
+    width: 100%;
+}
+.Yslygu{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    padding:0px;
+}
+.Chapter{
+   background-color: rgb(225, 225, 245);
+    border-radius: 10px;
+    margin:10px;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    padding: 0px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(201, 98, 98, 0);
+    color:rgba(245, 245, 220, 0);
+}
